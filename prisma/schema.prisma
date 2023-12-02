@@ -14,3 +14,9 @@ model user{
   id Int @id @default(autoincrement())
   name String
 }
+
+model QnA{
+  id Int @id @default(autoincrement())
+  question String @unique
+  answer String?
+}
