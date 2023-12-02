@@ -20,3 +20,8 @@ model QnA{
   question String @unique
   answer String?
 }
+
+model message{
+  id Int @id @default(autoincrement())
+  message String
+}
