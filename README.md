@@ -24,50 +24,70 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+# chat-automation-logic-hardcoded
 
-## Installation
+<p align="center">
+  Welcome to chat-automation-logic-hardcoded, a project designed for testing the integration of socket.io, chatbot logic, and Prisma with Nest.js. This project provides a platform to experiment with socket-based communication and chatbot functionalities.
+</p>
 
-```bash
-$ yarn install
-```
+## Introduction
 
-## Running the app
+`chat-automation-logic-hardcoded` is a backend project created to explore the concepts of socket.io, chatbot logic, and database integration using Prisma and Nest.js. This project aims to provide a foundation for implementing real-time chat applications with a hardcoded chatbot logic for testing purposes.
 
-```bash
-# development
-$ yarn run start
+## Features
 
-# watch mode
-$ yarn run start:dev
+- **Socket.io Integration:** Implements real-time communication using socket.io.
+- **Chatbot Logic:** Demonstrates a simple chatbot logic for automated responses.
+- **Prisma Database:** Integrates Prisma for efficient database interactions.
+- **Nest.js Backend:** Leverages the Nest.js framework for a scalable and organized backend.
+- **Concept Testing:** Perfect for experimenting with socket.io and chatbot functionalities.
+- **Minimalist Design:** Focuses on the core functionalities without unnecessary complexity.
 
-# production mode
-$ yarn run start:prod
-```
+## Getting Started
 
-## Test
+To set up and test `chat-automation-logic-hardcoded`, follow these steps:
 
-```bash
-# unit tests
-$ yarn run test
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/your-username/chat-automation-logic-hardcoded.git
+    cd chat-automation-logic-hardcoded
+    ```
 
-# e2e tests
-$ yarn run test:e2e
+2. **Install Dependencies:**
+    ```bash
+    yarn install
+    ```
 
-# test coverage
-$ yarn run test:cov
-```
+3. **Database Setup:**
+    - Configure your database settings in the `.env` file.
+    - Run Prisma migrations:
+      ```bash
+      npx prisma migrate dev
+      ```
 
-## Support
+4. **Run the Application:**
+    ```bash
+    # Start the Nest.js backend
+    yarn start:server
+    ```
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+5. **Open in Browser:**
+    - Access the provided API endpoints for testing socket.io and chatbot logic.
 
-## Stay in touch
+## Database Schema
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+The project uses Prisma for database interactions. Refer to the `schema.prisma` file to understand the database schema.
+
+## Contributing
+
+Contributions are welcome! If you have suggestions for improvement, find bugs, or want to contribute new features, please submit a pull request or open an issue.
+
+## Chatbot Logic
+
+Explore the hardcoded chatbot logic in the codebase (`src/chatbot-logic`) to understand how automated responses are generated.
 
 ## License
 
-Nest is [MIT licensed](LICENSE).
+This project is licensed under the MIT License.
+
+Feel free to experiment with `chat-automation-logic-hardcoded` and delve into the world of real-time communication and chatbot development! 🤖💬
