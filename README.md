@@ -49,7 +49,7 @@ To set up and test `chat-automation-logic-hardcoded`, follow these steps:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/chat-automation-logic-hardcoded.git
+    git clone https://github.com/soul-xettri/chat-automation-logic-hardcoded.git
     cd chat-automation-logic-hardcoded
     ```
 
